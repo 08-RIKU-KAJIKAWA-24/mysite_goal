@@ -1,0 +1,223 @@
+body > header{
+  width: 700px;
+  padding: 40px 80px;
+  margin-bottom: 30px;
+}
+
+.my_face_logo > img{
+  border-radius: 50%;
+  width: 80px;
+  height: auto;
+  float: left;
+}
+
+.my_face_logo > img:hover{
+  opacity: 0.7;
+}
+
+.my_name > p{
+  font-size: 22px;
+  font-family: serif;
+  font-weight: bold;
+  padding-left: 30px;
+  display: inline;
+}
+
+.my_name span{
+  font-size: 18px;
+  font-family: serif;
+}
+
+.menu > .btn{
+  float: left;
+}
+
+.menu > .btn > a{
+  color: #A80000;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.menu > .btn > a:hover{
+  opacity: 0.7;
+}
+
+.menu > .home > a{
+  padding-left: 30px;
+}
+
+.menu > .about > a{
+  color: #A80000;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu > .about > a:hover{
+  opacity: 0.7;
+}
+
+.sns > .btn{
+  padding-top: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.sns > .btn:hover{
+  opacity: 0.7;
+}
+
+.sns > .twitter{
+  color: #33ccff;
+  padding-left: 30px;
+}
+
+.sns > .mail{
+  color: #808080;
+}
+
+.sns > .youtube{
+  color: red;
+}
+
+body > .main{
+  width: 700px;
+  padding: 40px 210px;
+}
+
+.main > .goals > span{
+  color: white;
+  background-color: #A80000;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2px;
+  display: inline-block;
+}
+
+.main_text > h2{
+  font-family: serif;
+  font-weight: bold;
+}
+
+.main_text > h4{
+  color: #343D55;
+  font-family: serif;
+}
+
+.main_text > h5{
+  color: #808080;
+  font-weight: bold;
+  padding-left: 180px;
+}
+
+.main > .main_text{
+  width: 500px;
+  padding: 10px 15px;
+}
+
+.bar{
+  max-width: 600px;
+  width: 100%;
+  margin: 1em;
+  color: #363C3C;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 0.25em;
+  animation: bar-animation 1 5s;
+}
+
+.hcj{
+  max-width: 25%;
+  background: #edb918;
+}
+
+.java{
+  max-width: 75%;
+  background: #00B259;
+}
+
+.python{
+  max-width: 40%;
+  background: #edb918;
+}
+
+.rails{
+  max-width: 15%;
+  background: #b40926;
+}
+
+.toefl{
+  max-width: 5%;
+  background: #b40926;
+}
+
+.gre{
+  max-width: 0%;
+  background: #b40926;
+}
+
+.math{
+  max-width: 90%;
+  background: #00B259;
+}
+
+.computer{
+  max-width: 50%;
+  background: #edb918;
+}
+
+@keyframes bar-animation{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+.main_text > p{
+  color: #808080;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+body > .footer{
+  width: 700px;
+  padding: 40px 210px;
+}
+
+body > .footer > .icons{
+  margin-bottom: 150px;
+}
+
+body > .footer > .icons > .btn{
+  color: #808080;
+  font-size: 12px;
+  text-decoration: none;
+  padding-right: 15px;
+  display: inline-block;
+  float: left;
+}
+
+body > .footer > .icons > .comment > a{
+  color: #808080;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+body > .footer > .icons > .comment > a > span{
+  padding-right: 5px;
+}
+
+body > .footer > .refer > p{
+  color: #808080;
+  font-size: 12px;
+  display: inline-block;
+  padding-left: 150px;
+}
