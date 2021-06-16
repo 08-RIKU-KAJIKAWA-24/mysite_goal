@@ -132,22 +132,37 @@ body > .main{
 }
 
 .hcj{
-  max-width: 25%;
+  max-width: 60%;
   background: #edb918;
 }
 
+.c{
+  max-width: 80%;
+  background: #00B259;
+}
+
 .java{
-  max-width: 75%;
+  max-width: 80%;
   background: #00B259;
 }
 
 .python{
-  max-width: 55%;
+  max-width: 60%;
   background: #edb918;
 }
 
 .rails{
-  max-width: 55%;
+  max-width: 60%;
+  background: #b40926;
+}
+
+.r{
+  max-width: 30%;
+  background: #00B259;
+}
+
+.toeic{
+  max-width: 75%;
   background: #b40926;
 }
 
@@ -164,11 +179,6 @@ body > .main{
 .math{
   max-width: 90%;
   background: #00B259;
-}
-
-.computer{
-  max-width: 50%;
-  background: #edb918;
 }
 
 @keyframes bar-animation{
